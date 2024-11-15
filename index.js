@@ -10,7 +10,7 @@ app.use(express.json())
 
 
 app.use(cors({
-    origin: ["https://book-nest-front.vercel.app/"],
+    origin: ["https://book-nest-front.vercel.app"],
    methods: ["GET", "POST","PATCH","PUT","DELETE" ],
    credentials: true,
  }));
